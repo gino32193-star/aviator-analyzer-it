@@ -5,11 +5,12 @@ Questo repository contiene un'app Streamlit per analizzare storici dei moltiplic
 **Importante:** non esiste un modo legale o tecnico per prevedere i moltiplicatori con certezza. Usa questo strumento solo per analisi ed esercitazione.
 
 ## File
-- `streamlit_app.py` — app principale (italiano)
-- `model.py` — helper per ML (XGBoost o RandomForest)
-- `requirements.txt` — dipendenze Python
-- `Dockerfile` — per deploy su Render/Cloud
-- `Procfile` — per Heroku/Streamlit Cloud
+ streamlit==1.25.0
+pandas
+numpy
+scikit-learn
+matplotlib>=3.6.0,<3.11
+Pillow>=9.4.0
 
 ## Esecuzione locale
 1. Crea e attiva un ambiente virtuale (opzionale):
